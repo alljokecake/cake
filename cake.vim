@@ -5,18 +5,9 @@ if exists("syntax_on")
 endif
 let g:colors_name = "cake"
 
-" background -1 #062329
-" background 0  #10191F
-" background 1  #15212A
-" yellow        #F0E68C
-"
-" darkred       #CD5C5C       
-" #cd853f       darkorange 
-
 hi Normal guifg=#FFFFFF guibg=#10191F
 hi NonText guifg=#15212A
 hi LineNr guifg=#87919D 
-" hi LineNr guifg=#87919D guibg=NONE gui=bold cterm=bold
 hi StatusLine guifg=#333333 guibg=#c2bfa5 gui=NONE cterm=NONE
 hi Comment guifg=#87919D guibg=NONE gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE guibg=#15212A gui=NONE cterm=NONE
@@ -27,25 +18,24 @@ hi VertSplit guifg=#7f7f8c guibg=#c2bfa5 gui=NONE cterm=NONE
 hi Type	guifg=#82aaa3
 hi Function	guifg=#d0c5a9
 hi Visual guifg=#333333 guibg=#82aaa3
-" hi Cursor guifg=#333333 guibg=#26b2b2 gui=NONE cterm=NONE
-" hi Cursor guifg=#333333 guibg=#69f0ae gui=NONE cterm=NONE
 hi Cursor guifg=#333333 guibg=#f0e68c gui=NONE cterm=NONE
 hi Constant	guifg=#D4BC7D
 hi Todo	guifg=#333333 guibg=#cd853f
 hi Operator	guifg=#cd5c5c
 hi Identifier guifg=#d0c5a9
-hi Repeat	 guifg=#CD5C5C
+hi Repeat	 guifg=#cd5c5c
 hi Statement guifg=#aa4444 gui=bold
 hi PreProc	guifg=#cd853f
 hi Special	guifg=#cd5c5c
+hi WinSeparator guibg=NONE guifg=#15212A
+hi Pmenu        guifg=#FFFFFF guibg=#15212A
+hi PmenuSel     guifg=#FFFFFF guibg=#cd5c5c
+hi PmenuThumb   guibg=#cccccc
+hi PmenuSbar    guibg=#15212A
+hi CursorLineNr guifg=#FFFFFF gui=NONE
+hi Search guifg=#333333 guibg=#82aaa3 gui=NONE cterm=NONE
+hi IncSearch guifg=#1c4449 guibg=#82aaa3 gui=NONE cterm=NONE
 
-" FIXME
-" hi Error	term=reverse ctermbg=Red ctermfg=White guibg=Red guifg=White
-" hi Ignore				ctermfg=black		guifg=bg
-
-
-" Common groups that link to default highlighting.
-" You can specify other highlighting easily.
 hi link String	Constant
 hi link Character	Constant
 hi link Number	Constant

@@ -9,13 +9,13 @@ hi Normal guifg=#FFFFFF guibg=#10191F
 hi SignColumn guibg=#10191F
 hi NonText guifg=#15212A
 hi LineNr guifg=#87919D 
+hi CursorLineNr guifg=#FFFFFF gui=NONE
 hi StatusLine guifg=#333333 guibg=#c2bfa5 gui=NONE cterm=NONE
 hi Comment guifg=#87919D guibg=NONE gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE guibg=#15212A gui=NONE cterm=NONE
 hi StatusLineNC guifg=#7f7f8c guibg=#c2bfa5 gui=NONE cterm=NONE
 hi StatusLineTerm guifg=#333333 guibg=#c2bfa5 gui=NONE cterm=NONE
 hi StatusLineTermNC guifg=#ffffff guibg=#c2bfa5 gui=NONE cterm=NONE
-hi VertSplit guifg=#7f7f8c guibg=#c2bfa5 gui=NONE cterm=NONE
 hi Type	guifg=#82aaa3
 hi Function	guifg=#d0c5a9
 hi Visual guifg=#333333 guibg=#82aaa3
@@ -28,14 +28,16 @@ hi Repeat	 guifg=#cd5c5c
 hi Statement guifg=#aa4444 gui=bold
 hi PreProc	guifg=#cd853f
 hi Special	guifg=#cd5c5c
+hi VertSplit guifg=#7f7f8c guibg=#c2bfa5 gui=NONE cterm=NONE
 hi WinSeparator guibg=NONE guifg=#15212A
 hi Pmenu        guifg=#FFFFFF guibg=#15212A
 hi PmenuSel     guifg=#FFFFFF guibg=#cd5c5c
 hi PmenuThumb   guibg=#cccccc
 hi PmenuSbar    guibg=#15212A
-hi CursorLineNr guifg=#FFFFFF gui=NONE
-hi Search guifg=#cccccc guibg=#82aaa3 gui=NONE cterm=NONE
-hi IncSearch guifg=#333333 guibg=#82aaa3 gui=NONE cterm=NONE
+hi Search guifg=#333333 guibg=#82aaa3 gui=NONE cterm=NONE
+hi IncSearch guifg=#333333 guibg=#f0e68c gui=NONE cterm=NONE
+hi Title guifg=#cd5c5c
+hi Directory guifg=#82aaa3
 
 hi link String	Constant
 hi link Character	Constant

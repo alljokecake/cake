@@ -6,6 +6,7 @@ endif
 let g:colors_name = "cake"
 
 hi Normal guifg=#FFFFFF guibg=#10191F
+hi SignColumn guibg=#10191F
 hi NonText guifg=#15212A
 hi LineNr guifg=#87919D 
 hi StatusLine guifg=#333333 guibg=#c2bfa5 gui=NONE cterm=NONE
@@ -33,8 +34,8 @@ hi PmenuSel     guifg=#FFFFFF guibg=#cd5c5c
 hi PmenuThumb   guibg=#cccccc
 hi PmenuSbar    guibg=#15212A
 hi CursorLineNr guifg=#FFFFFF gui=NONE
-hi Search guifg=#333333 guibg=#82aaa3 gui=NONE cterm=NONE
-hi IncSearch guifg=#1c4449 guibg=#82aaa3 gui=NONE cterm=NONE
+hi Search guifg=#cccccc guibg=#82aaa3 gui=NONE cterm=NONE
+hi IncSearch guifg=#333333 guibg=#82aaa3 gui=NONE cterm=NONE
 
 hi link String	Constant
 hi link Character	Constant
